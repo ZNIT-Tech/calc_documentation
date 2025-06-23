@@ -5,7 +5,7 @@ Se o consumo mensal for zero ou nulo, utiliza-se o valor anual.
 O nome do mês é extraído da date_input para uso em consultas dinâmicas.
 
 2. Obtenção dos percentuais de mistura de biocombustível
-Se o veículo for colombiano (tipo_veiculo_frota_input = 48), são usados percentuais específicos da Colômbia.
+Se o veículo for de outro pais, como por exemplo Colômbia (tipo_veiculo_frota_input = 48), são usados percentuais específicos da Colômbia.
 
 Caso contrário, são usados os percentuais padrão nacionais da tabela perc_de_etanol_biodiesel_e_de_do_sin.
 
